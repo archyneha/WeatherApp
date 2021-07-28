@@ -1,0 +1,147 @@
+body{
+    background-image:url("https://images.unsplash.com/photo-1611083616600-d3fdc4198aa6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGlnaHQlMjBibHVlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+        background-repeat: no-repeat;
+    background-size: cover;
+
+      background-position: bottom;
+
+ 
+    
+
+}
+.container{
+    width: 50%;
+    
+    background-image:url("https://images.unsplash.com/photo-1611659934318-06fd70ced53c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODV8fHdoaXRlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding-bottom:50px;
+    
+
+}
+.app-title{
+    
+    height: 170px;
+  
+}
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    
+    font-size: 1.2em;
+    color: black;
+
+}
+
+#search{
+    display:block;
+    margin :2% auto;
+    padding: 5px;
+  
+    height: 20px;
+    border-radius:5px;
+  
+    border: 3px solid black;
+
+
+}
+#button{
+       display:block;
+    
+       margin :0 auto;
+  
+    
+    padding:10px;
+    border-radius:10px;
+    border:3px solid black;
+ 
+}
+#button:hover{
+    background-color:grey;
+}
+
+#button:active{
+    background-color:cyan;
+}
+
+.weather-container{
+    width: 80%;
+    height: 260px;
+   background-image:url("https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    margin: auto;
+    border-radius:20px;
+}
+
+
+.weather-icon img{
+    
+  
+  display: block;
+    margin:0 auto;
+    height: 80px;
+    width: 80px;
+
+}
+
+.location-icon{
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+}
+.location-icon img{
+  
+  
+  
+  
+
+    width: 32px;
+    margin: 3px auto;
+    cursor:pointer;
+    padding: 5px;
+    border: steelblue solid 2px;
+    border-radius: 10px;
+    color: steelblue;
+
+}
+.temperature-value{
+    width: 100%;
+    height: 60px;
+
+}
+.temperature-value  p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+}
+.temperature-value span{
+
+color: black;
+font-size: 0.5em;
+
+    
+}
+.temperature-description p{
+
+padding: 8px;
+margin: 0;
+color: black;
+text-align: center;
+font-size: 1.2em;
+}
+.location p{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    font-size: 0.8;
+}
+
+
+
+
+
+
